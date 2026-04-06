@@ -1,0 +1,64 @@
+/*
+Theme Name:     kadence-child
+Description:    
+Author:         Timbuns
+Template:       kadence
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffdf7;
+  color: #222;
+  line-height: 1.7;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2f5d3a;
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: #e07a1f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.wp-block-button__link,
+button,
+input[type="submit"] {
+  background-color: #2f5d3a;
+  color: white;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-weight: 600;
+  border: none;
+}
+
+.wp-block-button__link:hover {
+  opacity: 0.9;
+}
+
+/* Images */
+img {
+  border-radius: 12px;
+}
+
+/* Content spacing */
+.site-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Forms */
+input, textarea {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
